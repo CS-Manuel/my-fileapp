@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-fileapp';
+  title = 'Projecto IHM';
+
+  fileChanged(){
+    console.log("File has changed!")
+  }
 }
